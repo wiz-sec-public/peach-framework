@@ -8,9 +8,8 @@ As time went by, we began noticing a problematic pattern:
 1.	There is no common language in the industry to talk about best practices for tenant isolation, so each vendor ends up relying on different terminology and implementation standards for their security boundaries, making it difficult to assess their efficacy.
 2.	There is no baseline for what measures vendors should be expected to take in order to ensure tenant isolation in their products, neither in terms of which boundaries they’re using or how they are actually implemented.
 3.	There is no standard for transparency – while some vendors are very forthcoming about the details of their security boundaries, others share very little about them. This makes it harder for customers to manage the risks of using cloud applications.
-This pattern led us to develop PEACH , with the goal of modelling tenant isolation in cloud applications, evaluating security posture, and outlining ways to improve it if necessary.
 
-This inspired us to create **PEACH**, a tenant isolation framework for cloud applications, based on the lessons we've learned in our cloud vulnerability research.
+This led us to develop PEACH , with the goal of modelling tenant isolation in cloud applications, evaluating security posture, and outlining ways to improve it if necessary - all based on the lessons we've learned in our cloud vulnerability research.
 
 ### Using PEACH
 
