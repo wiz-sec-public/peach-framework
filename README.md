@@ -13,7 +13,7 @@ This led us to develop PEACH , with the goal of modelling tenant isolation in cl
 
 ### Using PEACH
 
-The first part of the security review process involves a tenant isolation review. This isolation review analyzes the risks associated with customer-facing interfaces and determines: 
+The first part of the security review process involves a tenant isolation review (see example [here](/case-studies/chaosdb.md)). This isolation review analyzes the risks associated with customer-facing interfaces and determines: 
 1. the complexity of the interface as a predictor of vulnerability (see examples [here](/examples/interface-examples.md)); 
 2. whether the interface is shared or duplicated per tenant; 
 3. what type of security boundaries are in place (e.g. hardware virtualization - see other types [here](/specifications/security-boundaries.md)); 
