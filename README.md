@@ -55,3 +55,5 @@ We would be thrilled to receive your feedback so we can improve the framework an
 
 ### Acknowledgements
 We would like to extend our gratitude to Christophe Parisel (Senior Cloud Security Architect, Société Générale), Cfir Cohen (Staff Software Engineer, Google), Kat Traxler (Principal Security Researcher, VectraAI), Srinath Kuruvadi (Head of Cloud Security, Netflix), Joseph Kjar (Senior Cloud Security Engineer, Netflix), Mike Kuhn (Managing Principal, Coalfire), Daniel Pittner (Software Architect, IBM Cloud), and Adam Callis (Information Security Architect, Cisco) for sharing constructive input throughout the development of this framework. We would also like to thank AWS for their review of our whitepaper and the valuable feedback they provided. We highly appreciate their willingness to help us identify tenant isolation best practices and their commitment to improving security transparency for cloud customers.
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
