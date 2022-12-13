@@ -13,12 +13,12 @@ This pattern led us to develop PEACH , with the goal of modelling tenant isolati
 ### Using PEACH
 
 The first part of the security review process involves a tenant isolation review. This isolation review analyzes the risks associated with customer-facing interfaces and determines: 
-1. the complexity of the interface as a predictor of vulnerability; 
+1. the complexity of the interface as a predictor of vulnerability (see examples [here](/examples/interface-examples.md)); 
 2. whether the interface is shared or duplicated per tenant; 
-3. what type of security boundaries are in place (e.g. hardware virtualization); 
+3. what type of security boundaries are in place (e.g. hardware virtualization - see other types [here](/specifications/security-boundaries.md)); 
 4. how strongly these boundaries have been implemented.
 
-In order to gauge how strongly the security boundaries have been implemented (4), we propose using the following five parameters (P.E.A.C.H.):
+In order to gauge how strongly the security boundaries have been implemented (4), we propose using the following five parameters (P.E.A.C.H. - defined in detail [here](/specifications/hardening-factors.md)):
 1.	**P**rivilege hardening
 2.	**E**ncryption hardening
 3.	**A**uthentication hardening
