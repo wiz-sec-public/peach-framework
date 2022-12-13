@@ -32,10 +32,6 @@ The second part of the security review process consists of remediation steps to 
 
 To find out more about the PEACH framework, check out the [PEACH website](peach.wiz.io) you to learn about principles for designing cloud applications with strong tenant isolation, and modelling your services against the threat of isolation escape. Additionally, you can see which questions to ask vendors to evaluate your security posture considering the risk of cross-tenant vulnerabilities. You may also read [our new whitepaper](), which takes a closer look at the PEACH framework while delving into prior work on the subject of tenant isolation.
 
-### Just PEACHy
-
-PEACH is based on the lessons we’ve learned over the course of our cloud vulnerability research, and we’re already using it internally at Wiz as part of our product design review process. We’ve been workshopping these ideas with various partners over the past few months and have decided that we’re ready to share them with the community as well.
-
 ### Get involved
 
 We would be thrilled to receive your feedback so we can improve the framework and make it as useful as possible for cloud application developers – feel free to reach out to us directly or [create an issue](https://github.com/wiz-sec/peach-framework/issues/new) here in our GitHub repository.
