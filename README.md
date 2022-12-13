@@ -51,9 +51,7 @@ To find out more about the PEACH framework, check out the [PEACH website](peach.
 
 PEACH is based on the lessons we’ve learned over the course of our cloud vulnerability research, and we’re already using it internally at Wiz as part of our product design review process. We’ve been workshopping these ideas with various partners over the past few months and have decided that we’re ready to share them with the community as well.
 
-We would be thrilled to receive your feedback so we can improve the framework and make it as useful as possible for cloud application developers – feel free to reach out to us directly or create an issue in [our GitHub repository].
-
-Stay tuned for our future blog posts on putting the PEACH framework into practice.
+We would be thrilled to receive your feedback so we can improve the framework and make it as useful as possible for cloud application developers – feel free to reach out to us directly or [create an issue](https://github.com/wiz-sec/peach-framework/issues/new) here in our GitHub repository.
 
 ### Acknowledgements
 We would like to extend our gratitude to Christophe Parisel (Senior Cloud Security Architect, Société Générale), Cfir Cohen (Staff Software Engineer, Google), Kat Traxler (Principal Security Researcher, VectraAI), Srinath Kuruvadi (Head of Cloud Security, Netflix), Joseph Kjar (Senior Cloud Security Engineer, Netflix), Mike Kuhn (Managing Principal, Coalfire), Daniel Pittner (Software Architect, IBM Cloud), and Adam Callis (Information Security Architect, Cisco) for sharing constructive input throughout the development of this framework. We would also like to thank AWS for their review of our whitepaper and the valuable feedback they provided. We highly appreciate their willingness to help us identify tenant isolation best practices and their commitment to improving security transparency for cloud customers.
