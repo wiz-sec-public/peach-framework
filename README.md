@@ -38,7 +38,9 @@ By using the PEACH framework to model Cosmos DB’s initial state prior to  Chao
 4.	**Connectivity** hardening gap – network controls only enforced within container (iptables) and orchestrator interface accessible from tenant container.
 5.	**Hygiene** gap – tenant access to unrelated certificates and keys.
  
-Estimated isolation scheme of Cosmos DB-embedded Jupyter Notebook at the time of ChaosDB’s discovery
+<p align="center"><img align="center" src="https://github.com/wiz-sec/peach-framework/blob/adding-content/assets/chaosdb.png" alt="Estimated isolation scheme of Cosmos DB-embedded Jupyter Notebook at the time of ChaosDB’s discovery" class="center"></p>
+<p align="center"><i>Estimated isolation scheme of Cosmos DB-embedded Jupyter Notebook at the time of ChaosDB’s discovery</i></p>
+
 While this isolation scheme can ensure tenant isolation for relatively simple interfaces, it is ill-suited to highly complex ones such as Jupyter Notebook. In the case of ChaosDB, this complexity resulted in PEACH gaps that ultimately enabled our attack sequence to unfold.
 
 ### Getting started with PEACH
