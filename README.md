@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" align="center" src="https://github.com/wiz-sec/peach-framework/blob/main/assets/peaches.png" class="center"></p>
 
-## Introducing PEACH, a tenant isolation framework for cloud applications
+## PEACH: a tenant isolation framework for cloud applications
 
 Over the past year and a half, Wiz researchers and other members of the cloud security community discovered several cross-tenant vulnerabilities in various multi-tenant cloud applications (including [ChaosDB](https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases), [ExtraReplica](https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql) and [Hell’s Keychain](https://www.wiz.io/blog/hells-keychain-supply-chain-attack-in-ibm-cloud-databases-for-postgresql)). Each of these critical vulnerabilities could have potentially enabled malicious actors to access data belonging to any customer of the affected applications.
 
@@ -40,7 +40,7 @@ The second part of the security review process consists of remediation steps to 
 
 ### Getting started with PEACH
 
-To find out more about the PEACH framework, check out the [PEACH website](peach.wiz.io) you to learn about principles for designing cloud applications with strong tenant isolation, and modelling your services against the threat of isolation escape. Additionally, you can see which questions to ask vendors to evaluate your security posture considering the risk of cross-tenant vulnerabilities. You may also read [our new whitepaper](), which takes a closer look at the PEACH framework while delving into prior work on the subject of tenant isolation.
+To find out more about the PEACH framework, check out the [PEACH website](https://peach.wiz.io) you to learn about principles for designing cloud applications with strong tenant isolation, and modelling your services against the threat of isolation escape. Additionally, you can see which questions to ask vendors to evaluate your security posture considering the risk of cross-tenant vulnerabilities. You may also read [our new whitepaper](https://www.datocms-assets.com/75231/1671013259-peach_whitepaper_ver1.pdf), which takes a closer look at the PEACH framework while delving into prior work on the subject of tenant isolation.
 
 ### Get involved
 
