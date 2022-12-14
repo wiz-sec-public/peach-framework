@@ -40,7 +40,7 @@ The second part of the security review process consists of remediation steps to 
 
 ### Getting started with PEACH
 
-To find out more about the PEACH framework, check out the [PEACH website](https://peach.wiz.io) you to learn about principles for designing cloud applications with strong tenant isolation, and modelling your services against the threat of isolation escape. Additionally, you can see which questions to ask vendors to evaluate your security posture considering the risk of cross-tenant vulnerabilities. You may also read [our new whitepaper](https://www.datocms-assets.com/75231/1671013259-peach_whitepaper_ver1.pdf), which takes a closer look at the PEACH framework while delving into prior work on the subject of tenant isolation.
+To find out more about the PEACH framework, check out the [PEACH website](https://peach.wiz.io) you to learn about principles for designing cloud applications with strong tenant isolation, and modelling your services against the threat of isolation escape. Additionally, you can see which questions to ask vendors to evaluate your security posture considering the risk of cross-tenant vulnerabilities. You may also read [our new whitepaper](https://www.datocms-assets.com/75231/1671023665-peach_whitepaper_ver1-1.pdf), which takes a closer look at the PEACH framework while delving into prior work on the subject of tenant isolation.
 
 ### Get involved
 
