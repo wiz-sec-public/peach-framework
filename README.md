@@ -1,4 +1,4 @@
-<p align="center"><img width="40%" align="center" src="https://github.com/wiz-sec/peach-framework/blob/main/assets/peaches.png" alt="Typical vulnerability-enabled cross-tenant attack sequence" class="center"></p>
+<p align="center"><img width="40%" align="center" src="https://github.com/wiz-sec/peach-framework/blob/main/assets/peaches.png" class="center"></p>
 
 ## Introducing PEACH, a tenant isolation framework for cloud applications
 
