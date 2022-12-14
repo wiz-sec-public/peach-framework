@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" align="center" src="https://github.com/wiz-sec/peach-framework/blob/main/assets/peaches.png" class="center"></p>
 
-## Introducing PEACH, a tenant isolation framework for cloud applications
+## PEACH: a tenant isolation framework for cloud applications
 
 Over the past year and a half, Wiz researchers and other members of the cloud security community discovered several cross-tenant vulnerabilities in various multi-tenant cloud applications (including [ChaosDB](https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases), [ExtraReplica](https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql) and [Hell’s Keychain](https://www.wiz.io/blog/hells-keychain-supply-chain-attack-in-ibm-cloud-databases-for-postgresql)). Each of these critical vulnerabilities could have potentially enabled malicious actors to access data belonging to any customer of the affected applications.
 
