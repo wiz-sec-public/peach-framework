@@ -2,6 +2,9 @@
 
 Over the past year and a half, Wiz researchers and other members of the cloud security community discovered several cross-tenant vulnerabilities in various multi-tenant cloud applications (including [ChaosDB](https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases), [ExtraReplica](https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql) and [Hell’s Keychain](https://www.wiz.io/blog/hells-keychain-supply-chain-attack-in-ibm-cloud-databases-for-postgresql)). Each of these critical vulnerabilities could have potentially enabled malicious actors to access data belonging to any customer of the affected applications.
 
+<p align="center"><img align="center" src="https://github.com/wiz-sec/peach-framework/blob/adding-content/assets/attack-sequence.png" alt="Typical vulnerability-enabled cross-tenant attack sequence" class="center"></p>
+<p align="center"><i>Typical vulnerability-enabled cross-tenant attack sequence</i></p>
+
 Although these issues have been reported on extensively and were dealt with appropriately by the relevant vendors, we’ve seen little public discussion on how to mitigate such vulnerabilities across the entire industry. The vast majority of modern SaaS and PaaS applications are multi-tenant, and anyone building or using these services should have an interest in solving this problem.
 
 As time went by, we began noticing a problematic pattern:
@@ -27,6 +30,9 @@ In order to gauge how strongly the security boundaries have been implemented (4)
 5.	**H**ygiene
 
 The second part of the security review process consists of remediation steps to manage the risk of cross-tenant vulnerabilities and improve isolation as necessary. These includes reducing interface complexity,  enhancing tenant separation, and increasing interface duplication, all while accounting for operational context such as budget constraints, compliance requirements, and expected use-case characteristics of the service.
+
+<p align="center"><img align="center" src="https://github.com/wiz-sec/peach-framework/blob/adding-content/assets/review-process.png" alt="Isolation design review procedure" class="center"></p>
+<p align="center"><i>Isolation design review procedure</i></p>
 
 ### Getting started with PEACH
 
